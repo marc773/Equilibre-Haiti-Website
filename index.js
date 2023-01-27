@@ -7,7 +7,7 @@ $(document).ready(function(){
         
         'use strict';
         
-        if($(window).scrollTop() < 280 ) {
+        if($(window).scrollTop() < 180 ) {
             
             $('.navbar').css ({
                'margin-top': '-100px',
