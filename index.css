@@ -1,0 +1,510 @@
+/* Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    box-sizing: border-box;
+    font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+    overflow-x:hidden;
+}
+
+/* Utilities*/
+.primary-color {
+    color: rgb(127, 255, 157);
+}
+
+.secondary-color {
+    color: #1a06ee;
+}
+
+.l-heading {
+    font-size: 2.75rem;
+    font-weight: 300;
+    text-transform:uppercase;
+    border-radius: 6px;
+    background-color: rgba(185, 215, 232, 0.4);
+}
+
+.all-para {font-size: 19px;
+    line-height: 2.3rem;
+}
+
+.space {
+    height: 70px;
+    background-color: transparent; 
+}
+
+/* navbar */
+.navbar {
+    background-color: rgba(185, 215, 232, 0.85);
+    transition: all 1s ease-in-out;
+}
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+.nav-item {
+    align-self: flex-end;
+}
+
+.navbar .navbar-brand {
+    padding: 0px;
+    margin: 0px;
+    width: 20%;
+} 
+
+.navbar .active {
+    color: #1605cc !important;
+}
+
+/* showcase*/
+.showcase {
+    color: #fff;
+    background-image: url('images/mana5280-ivG8LkDrtjs-unsplash.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+/* Overlay */
+.overlay {
+    background-color: rgba(31, 31, 31, 0.70);
+}
+
+.showcase .container {
+    text-align: center;
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+}
+
+.showcase .showcase-info {
+    font-size: 2.5rem;
+    margin: 2rem 0px;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    border-radius: 6px;
+    background-color: rgba(185, 215, 232, 0.4);
+}
+
+.showcase .showcase-info span {
+    padding: 0;
+    margin: 0;
+    border-radius:rgba(36, 55, 199, 0.9) 6px;
+}
+
+.showcase .btn-label {
+    display: block;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.showcase .btn-primary {
+    font-size: 1rem;
+    padding: 0.5rem;
+    background-color:  #1d55ce;;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.75s ease-in-out;
+}
+
+.showcase .btn-primary:hover {
+    background-color: #1a06ee;
+    cursor: pointer;
+}
+
+/* Services */
+#services .head-container {
+    padding-bottom: 15px;
+}
+
+#services .body-container {
+    padding-top: 35px;
+    padding-bottom: 15px; 
+}
+
+#services h1 {
+    color: #fff;
+    margin-top: 4rem;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#services p {
+    text-align: justify;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#services .services-header {
+    color: #fff;
+    background-image: url('images/android-chrome-512x512(1).png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150% 80%;
+    -moz-background-size: 150% 80%;
+    -o-background-size: 150% 80%;
+    -webkit-background-size: 100% 100%;
+}
+
+#services .column-left {
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+#services .column-mid {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#services .column-mid img {
+    justify-content: center;
+    background-color: #3b5998;
+    align-items: center;
+    padding: 4.5rem 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    display: none;
+}
+
+#services .column-right {
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-left:15px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+#services ul {
+    font-weight:700;
+    list-style: none; ;
+    padding: 2.5rem 0px;
+}
+
+#services .services-btn {
+    text-align: center;
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+    padding-top: 0;
+    transition: all 0.75 ease-in-out;
+}
+
+#services .services-btn .btn {
+    transition: all 0.75s ease-in-out;
+}
+
+#services .services-btn .btn:hover {
+    background-color: #1a06ee;
+}
+
+/* Contact */
+#contact {
+    background-image: url('images/pont.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.available-on {
+    margin: 2.5rem 0;
+    margin-top: 3.5rem;
+    color: #fff;
+    padding: 1.5rem;
+    background-color: rgba(88, 143, 210, 0.3);
+}
+
+#contact .available-on h1 {
+    font-size: 25px;
+    font-weight:700;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+#contact .available-on h1 span {
+    color: #1605cc !important;
+}
+
+#contact .available-on .social-item {
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+#contact .available-on .social-item .media {
+    color: #fff;
+    display: inline;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -60px;
+    align-self: center;
+    opacity: 0;
+    transition: all 2s ease-in;
+    -moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+}
+
+#contact .available-on .social-item i {
+    color: #1605cc;
+    font-size: 45px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+}
+
+
+#contact .available-on .social-item:hover i {
+    opacity: 0;
+}
+
+#contact .available-on .social-item:hover .media {
+    opacity: 1;
+}
+
+#contact .container h1 {
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+#contact .container p {
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#contact .container{
+    align-items: center;
+    text-align: center;
+}
+
+#contact .container #container form label {
+    text-align: left;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+#contact .container #form-container form label, input, textarea {
+    width: 100%;
+}
+
+#contact .container .btn {
+    color: #fff;
+    width: 90px;
+    margin: 1.5rem 0;
+    border: none;
+    margin-bottom: 1rem;
+    transition: all 0.75s ease-in-out;
+}
+
+#contact .container .btn:hover {
+    background-color: #1a06ee;
+}
+
+/* Footer*/
+#footer { 
+    width: 100%;
+    color: #ddd;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+}
+
+#footer p {
+    padding: 0rem;
+    padding-bottom: 0;
+}
+#footer #social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#footer a {
+    padding: 0px 1rem;
+    color: rgb(185, 185, 201);
+}
+
+@media screen and (max-width: 576px) {
+     /* Utilities */
+    .l-heading {
+        border-radius: 6px;
+        font-size: 2rem;
+        background-color: rgba(185, 215, 232, 0.4);
+    }
+
+    .all-para {font-size: 15px;
+        line-height: 1.5rem;
+    }
+
+    .space {
+        height: 10px;
+        background-color: transparent; 
+    }
+
+    /* Showcase */
+    .showcase .container {
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 10rem;
+    }
+
+    .showcase .showcase-info {
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin: 1rem 0px;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    /* Overlay services*/
+    #services .services-header {
+        color: #fff;
+        background-image: url('images/android-chrome-512x512(1).png');
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 150% 80%;
+        -moz-background-size: 150% 80%;
+        -o-background-size: 150% 80%;
+        -webkit-background-size: 150% 80%;
+    }
+
+    #services .column-mid img {
+        display: inline-block;
+        justify-content: center;
+        background-color: #3b5998;
+        align-items: center;
+        padding: 4.5rem 0px;
+        padding-bottom: 0px;
+        width: 99%;
+        border-radius: 10px;
+        margin-bottom: 0.75rem;
+    }
+
+    #services .column-left {
+        text-align: left;
+        margin-bottom: 0.75rem;
+    }
+    #services ul {
+        font-size: 15px;
+        font-weight:600;
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    /* Utilities */
+    .l-heading {
+        border-radius: 6px;
+        font-size: 2rem;
+        background-color: rgba(185, 215, 232, 0.4);
+    }
+
+    .all-para {font-size: 15px;
+        line-height: 1.5rem;
+    }
+
+    .space {
+    height: 10px;
+    background-color: transparent; 
+    }
+
+   /* Showcase */
+    .showcase .container {
+        text-align: center;
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+    }
+
+    .showcase .showcase-info {
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin: 1rem 0px;
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    #services .column-mid img {
+        display: inline-block;
+        justify-content: center;
+        background-color: #3b5998;
+        align-items: center;
+        padding: 4.5rem 0px;
+        padding-bottom: 0px;
+        width: 99%;
+        border-radius: 10px;
+        margin-bottom: 0.75rem;
+
+    }
+
+    #services .column-left {
+        text-align: left;
+        margin-bottom: 0.75rem;
+    }
+    #services ul {
+        font-size: 15px;
+        font-weight:600;
+        list-style-type: disc;
+        list-style-position: inside;
+    }
+}
+
+@media screen and (min-width: 993px){
+    .nav-item {
+        align-self: flex-end;
+    }
+
+    #header .container{
+        width: 992px;
+    }
+
+    #accueil .container {
+        width: 992px;
+    }
+
+    #services .container {
+        width: 992px;
+    }
+
+    #contact .container, .available-on {
+        width: 992px;
+    }
+}
+
+
+
+
