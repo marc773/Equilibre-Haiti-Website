@@ -108,11 +108,13 @@ html, body {
     padding: 1rem;
 }
 
-.showcase .btn-primary {
+.showcase .btn-primary, .submitbutton {
     font-size: 1rem;
     padding: 0.5rem;
+    margin: 15px 0px;
     background-color:  #1d55ce;;
     border: none;
+    width: 160px;
     border-radius: 0.5rem;
     text-decoration: none;
     color: #fff;
@@ -120,6 +122,12 @@ html, body {
 }
 
 .showcase .btn-primary:hover {
+
+    background-color: #1a06ee !important;
+    cursor: pointer;
+}
+
+#contact .submitbutton:hover {
     background-color: #1a06ee;
     cursor: pointer;
 }
