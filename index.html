@@ -318,7 +318,7 @@
                         <textarea name="message" id="message" style="height: 100px"></textarea>
                       
 
-                      <button type="submit" class="btn  btn-primary">Envoyer</button>
+                      <input type="submit" class="submitbutton btn-primary">Envoyer</input>
                     </form>
 
               </div>
@@ -362,6 +362,16 @@
 
         <!-- jQuery-->
         <script src="index.js"></script>
+
+        <script>
+        // test form
+        $('.btn-submit').on('click', function(event) {
+            'use strict'
+
+            $('.btn-submit').addClass("active");
+
+          });
+        </script>
 
     </body>
 </html>
