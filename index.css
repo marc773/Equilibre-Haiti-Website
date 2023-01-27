@@ -254,10 +254,10 @@ html, body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    transition: 1s ease-in-out;
-    -moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
+    transition: all 0.6s ease-in;
+    -moz-transition: all 0.6s ease-in;
+    -o-transition: all 0.6s ease-in;
+    -webkit-transition: all 0.6s ease-in;
 }
 
 #contact .available-on .social-item .media {
