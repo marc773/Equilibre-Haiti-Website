@@ -298,27 +298,19 @@
 
                     <form name="contact" method="POST" data-netlify="true">
 
-              
                         <label for="name">Nom et prénom</label>
-                        <input type="text" name="name" id="name">
-                      
-                      
-                      
+                        <input type="text" name="name" id="name" required>
+                        
                         <label for="phone">Téléphone</label>
-                        <input type="text" name="Phone" id="telephone">
-                      
-
+                        <input type="text" name="Phone" id="telephone" required>
                       
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                     
-
+                        <input type="email" name="email" id="email" required>
                       
                         <label for="message">Message</label>
-                        <textarea name="message" id="message" style="height: 100px"></textarea>
-                      
+                        <textarea name="message" id="message" style="height: 100px" required></textarea>
 
-                      <input type="submit" class="submitbutton btn-primary">Envoyer</input>
+                      <input type="submit" class="submitbutton btn-primary"></input>
                     </form>
 
               </div>
@@ -362,16 +354,6 @@
 
         <!-- jQuery-->
         <script src="index.js"></script>
-
-        <script>
-        // test form
-        $('.submitbutton').on('click', function(event) {
-            'use strict'
-
-            $('.submitbutton').addClass("active");
-
-          });
-        </script>
 
     </body>
 </html>
