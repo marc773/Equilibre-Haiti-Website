@@ -272,6 +272,7 @@ html, body {
     color: #fff;
     display: inline;
     position: absolute;
+    text-decoration:none;
     margin-top: 5px;
     margin-left: -60px;
     align-self: center;
